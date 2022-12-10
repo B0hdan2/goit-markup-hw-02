@@ -1,0 +1,215 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color:#2196F3;   
+    --button-color:#F5F4FA;
+    --praimary-white-color:#FFFFFF;
+    --background-color:#2F303A;
+}
+
+
+body{
+    background-color: #EEEEEE;
+    color:var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+/*-крапочка*/
+.list{
+    list-style: none;
+}
+.section-list{
+    list-style: none;
+}
+.feature-list{
+    list-style: none;
+}
+
+
+/*logo*/
+.logo{
+    color: #000000;
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+}
+
+.logo.excerpt{
+    color: var(--praimary-white-color);
+}
+
+.logo:hover{
+    color: var(--accent-color);
+}
+.logo.title{
+    color: var(--accent-color);
+    font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+}
+
+/*сайт*/
+.site-nav .link{
+    color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+/*портфоліо*/
+.list.title{
+    color: var(--title-text-color);
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+}
+.list.text{
+    color: var(--primary-text-color);
+font-size: 16px;
+line-height: 1.87;
+}
+/*кнопки*/
+.button{
+    color: var(--title-text-color);
+    background-color: var(--button-color);
+    font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+cursor: pointer;
+}
+.button:hover,
+.button:focus{
+    color: var(--praimary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.primary{
+    color: var(--praimary-white-color);
+    background-color: var(--accent-color);
+
+}
+.button.primary:hover,
+.button.primary:focus{
+    color: var(--title-text-color);
+    background-color: var(--button-color);
+
+}
+
+
+/*секції*/
+.hero{
+    background-color: var(--background-color);
+}
+.hero.title{
+    color: var(--praimary-white-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-transform:uppercase;
+text-align: center;
+}
+
+
+.section-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+}
+.feature-list .title{
+    color: var(--title-text-color);
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+}
+.feature-list .title-text{
+font-size: 14px;
+line-height: 1.71;
+}
+.section-list .title{
+   color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    
+}
+.section-list .text{
+    font-size: 16px;
+    line-height: 1.18;
+
+}
+
+
+
+/*підвал*/
+.footer{
+    background-color: var(--background-color);
+}
+.current{
+    color: var(--praimary-white-color);
+font-size: 14px;
+line-height: 1.71;
+text-decoration: none;
+font-style: normal
+}
+.current:hover,
+.current:focus{
+color: var(--accent-color);
+
+
+}
+.list .mail{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    font-style: normal;
+  
+}
+.address.mail{
+    color: rgba(100%, 100%, 100%, 60%);
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    font-style: normal;
+   
+}
+.list .number{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    text-decoration: none;
+    font-style: normal;
+}
+.address.number{
+    color: rgba(100%, 100%, 100%, 60%);
+    font-size: 14px;
+    line-height: 1.14px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+ .mail:hover,
+ .mail:focus,
+ .number:hover,
+ .number:focus {
+    color: var(--accent-color);
+   
+}
+
